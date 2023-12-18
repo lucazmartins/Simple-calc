@@ -91,7 +91,7 @@ html {
     align-items: center;
     gap: 10px;    
     border-radius: 4px;
-    background: #3643B6;
+    background: var(--color-buttom);
 
 }
 .button {
