@@ -12,34 +12,25 @@
 <body>
     <div class="container">
         <div class="calc">
-            <div class="calc_content">
-                <div class="calc_header">
-                    <h1>SIMPLE CALCULATOR</h1>
+            <div class="calc__content">
+                <div class="calc__header">
+                    Simple calculator
                 </div>
-                <div class="calc_box">
-                    Number 1
-                    <div class="calc_number"> 
-                        <input type="number">
-                    </div>
+                <div class="calc__box">
+                    <label for="number 1">Number 1</label>
+                    <input id="num1" type="number" class="calc__number">
                 </div>
-                <div class="calc_box">
-                    Number 2
-                    <div class="calc_number"> 
-                        <input type="number">
-                    </div>
+                <div class="calc__box">
+                    <label for="number 2">Number 2</label>
+                    <input id="num2" type="number" class="calc__number">
                 </div>
-                <div class="calc_button">
-                    <div class="calc_button-content">
-                        <button class="button">multiply</button>
-                    </div>
-                    <div class="calc_button-content">   
-                        <button class="button">divide</button>
-                    </div>
+                <div class="calc__button">
+                    <button class="button">multiply</button>
+                    <button class="button">divide</button>
                 </div>
-                <div class="calc_box">
-                    Result
-                    <div class="calc_number-2"> 
-                        <input type="number">
+                <div class="calc__box">
+                    <label for="result">Result</label>
+                    <input id="result" type="number" class="calc__number-2">
                     </div>
                 </div>
             </div>
@@ -47,4 +38,5 @@
     </div>
     
 </body>
+<script src="./js/main.js"></script>
 </html>
